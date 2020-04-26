@@ -1,0 +1,6 @@
+dist
+lib
+script
+bin
+node_modules
+*.html

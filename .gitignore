@@ -1,0 +1,32 @@
+.temp/
+.rn_temp/
+
+.DS_Store
+# dependencies
+node_modules
+
+# build output
+.next
+/dist/
+/build/
+/deploy/dist/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+err_log.txt
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+*.zip

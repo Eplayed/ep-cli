@@ -1,0 +1,50 @@
+{
+  "name": "ep-cli",
+  "version": "0.0.1",
+  "description": "项目快速构建工具",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eplayed/ep-cli.git"
+  },
+  "bin": {
+    "quick-cli": "./bin/quick-cli"
+  },
+  "scripts": {
+    "start": "tsc -w",
+    "build": "rm -rf ./lib && tsc"
+  },
+  "keywords": [
+    "quick",
+    "work",
+    "快速构建",
+    "脚手架",
+    "React",
+    "TS",
+    "小程序"
+  ],
+  "author": "Eplayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eplayed/ep-cli/issues"
+  },
+  "homepage": "https://github.com/Eplayed/ep-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "fs-extra": "^9.0.0",
+    "commander": "^3.0.1",
+    "inquirer": "^7.0.0",
+    "progress-stream": "^2.0.0",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.3",
+    "single-line-log": "^1.1.2",
+    "unzip": "^0.1.11"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.3",
+    "@types/node": "^12.7.5",
+    "typescript": "^3.6.3",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "eslint": "^6.4.0"
+  }
+}

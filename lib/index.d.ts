@@ -1,0 +1,12 @@
+declare const fs: any;
+declare const path: any;
+declare const chalk: any;
+declare const commander: any;
+declare const inquirer: any;
+declare const exec: any;
+declare const version: any;
+declare const promptTypeList: any;
+declare function resolve(dir: any): any;
+declare function handleErr(gitName: any, projectName: any, err: any): void;
+declare function checkDire(dir: any, name: any): void;
+declare function rename(gitName: any, projectName: any): void;
