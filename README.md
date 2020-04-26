@@ -1,10 +1,10 @@
 <!--
- * @Author: your name
+ * @Author: Eplayed
  * @Date: 2020-04-26 10:45:51
- * @LastEditTime: 2020-04-26 16:26:41
- * @LastEditors: your name
+ * @LastEditTime: 2020-04-26 16:36:25
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /quick-cli/README.md
+ * @FilePath: /ep-cli/README.md
  -->
 
 # ep-cli
@@ -27,9 +27,9 @@ npm install eq-cli -g
 ### 初始化命令
 
 ```
-eq-cli init <projectName>
+ep-cli init <projectName>
 或者
-eq-cli i <projectName>
+ep-cli i <projectName>
 ```
 
 ## 注意事项
@@ -37,11 +37,11 @@ eq-cli i <projectName>
 **_ 当你完成脚手架开发时，你想本地测试是否成功运作，会出现这种情况 _**
 
 ```
-command not found: eq-cli
+command not found: ep-cli
 ```
 
 因为你本地找不到命令执行的路径，没有映射到 bin 中去
 
-那就是用 npm link eq-cli
+那就是用 npm link ep-cli
 
-或者将文件夹拷贝至全局 node_modules ，配置全局 PATH，指向全局 node_modules/eq-cli/bin
+或者将文件夹拷贝至全局 node_modules ，配置全局 PATH，指向全局 node_modules/ep-cli/bin
