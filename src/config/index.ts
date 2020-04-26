@@ -1,5 +1,5 @@
 module.exports = {
-  npmUrl: "https://registry.npmjs.org/shc-cli/latest",
+  npmUrl: "https://registry.npmjs.org/ep-cli/latest",
   promptTypeList: [
     {
       type: "list",

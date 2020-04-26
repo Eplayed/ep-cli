@@ -55,6 +55,13 @@ function rename(gitName: any, projectName: any) {
   });
 }
 //version 版本号
+// command – 定义命令行指令，后面可跟上一个name，用空格隔开
+// alias – 定义一个更短的命令行指令
+// description – 描述，它会在help里面展示
+// option – 定义参数
+// action – 注册一个callback函数
+// parse - 解析命令行
+
 commander
   .version(version, "-v, --version")
   .command("init <projectName>")
