@@ -7,7 +7,7 @@
     "url": "git+https://github.com/Eplayed/ep-cli.git"
   },
   "bin": {
-    "quick-cli": "./bin/quick-cli"
+    "ep-cli": "./bin/ep-cli"
   },
   "scripts": {
     "start": "tsc -w",
