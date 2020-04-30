@@ -26,7 +26,7 @@ module.exports = {
           name: "react",
           value: {
             url: " https://github.com/Eplayed/public_react_ts.git",
-            gitName: "react-ts-template",
+            gitName: "public_react_ts",
             val: "react模版",
           },
         },

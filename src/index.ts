@@ -82,11 +82,11 @@ commander
           console.info(chalk.red(`clone fail,${error}`));
           return;
         }
-        try {
-          rename(gitName, projectName);
-        } catch (error) {
-          rename(gitName, projectName);
-        }
+        // 判断路劲是否存在 --- 调试
+        // const isExists = fs.existsSync(path.join(process.cwd(), gitName));
+        // if (isExists) {
+        rename(gitName, projectName);
+        // }
       });
     });
   });

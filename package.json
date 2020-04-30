@@ -1,6 +1,6 @@
 {
   "name": "ep-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "项目快速构建工具",
   "repository": {
     "type": "git",
@@ -33,11 +33,7 @@
     "fs-extra": "^9.0.0",
     "commander": "^3.0.1",
     "inquirer": "^7.0.0",
-    "progress-stream": "^2.0.0",
-    "request": "^2.88.0",
-    "shelljs": "^0.8.3",
-    "single-line-log": "^1.1.2",
-    "unzip": "^0.1.11"
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@types/request": "^2.48.3",
