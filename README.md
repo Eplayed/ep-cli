@@ -1,7 +1,7 @@
 <!--
  * @Author: Eplayed
  * @Date: 2020-04-26 10:45:51
- * @LastEditTime: 2020-04-26 16:36:25
+ * @LastEditTime: 2020-05-06 09:20:15
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /ep-cli/README.md
@@ -31,6 +31,13 @@ ep-cli init <projectName>
 或者
 ep-cli i <projectName>
 ```
+
+### 工具选择
+
+- 可用于控制台选择的工具：inquirer [使用文档](https://github.com/SBoudrias/Inquirer.js)
+- 可处理控制台命令的工具：commander [使用文档](https://github.com/tj/commander.js)
+- 可改变输出 log 颜色的工具：chalk [使用文档](https://github.com/chalk/chalk)
+- 可执行 shell 命令的工具: child_process
 
 ## 注意事项
 
