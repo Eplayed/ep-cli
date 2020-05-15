@@ -1,13 +1,21 @@
 <!--
  * @Author: Eplayed
  * @Date: 2020-04-26 10:45:51
- * @LastEditTime: 2020-05-06 09:20:15
+ * @LastEditTime: 2020-05-15 14:20:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /ep-cli/README.md
  -->
 
 # ep-cli
+
+## 需求
+
+在日常开发中，项目启动时，大多情况都会从上次成熟的项目中，删减出最小项目架构，新项目框架不同，语言不同，又没有维护标准项目脚手架，会让人很抓狂，每次都要删减出最小项目架构，难以维护
+
+## 解决
+
+通过一次删减出最小架构，作为标准项目脚手架，单独维护，并使用当前工具，配置已提交代码库，通过当前工具直接拉取已维护已提交标准项目脚手架，一劳永逸，下次新项目开启，也不用 git 库中到处找合适的成熟项目中删减库了。任何语言都可配置在 config/index.ts 文件中
 
 ## 程序运行
 
