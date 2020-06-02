@@ -15,7 +15,7 @@ module.exports = {
           },
         },
         {
-          name: "pc",
+          name: "pc-vue",
           value: {
             url: "https://github.com/littleTreeme/vue-web-template.git",
             gitName: "vue-web-template",
@@ -28,6 +28,14 @@ module.exports = {
             url: " https://github.com/Eplayed/public_react_ts.git",
             gitName: "public_react_ts",
             val: "react模版",
+          },
+        },
+        {
+          name: "react-admin",
+          value: {
+            url: " https://github.com/Eplayed/react-admin-ant.git",
+            gitName: "react-admin-ant",
+            val: "react管理模板",
           },
         },
       ],
