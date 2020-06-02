@@ -1,6 +1,6 @@
 {
   "name": "ep-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "项目快速构建工具",
   "repository": {
     "type": "git",
