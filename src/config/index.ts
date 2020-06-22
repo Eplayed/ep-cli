@@ -33,9 +33,17 @@ module.exports = {
         {
           name: "react-admin",
           value: {
-            url: " https://github.com/Eplayed/react-admin-ant.git",
+            url: "https://github.com/Eplayed/react-admin-ant.git",
             gitName: "react-admin-ant",
             val: "react管理模板",
+          },
+        },
+        {
+          name: "react-admin-antP",
+          value: {
+            url: "https://gitee.com/Eplayer/react-admin-ant.git",
+            gitName: "react-admin-ant",
+            val: "antP管理模板",
           },
         },
       ],
