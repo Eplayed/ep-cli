@@ -30,3 +30,6 @@ err_log.txt
 *.sw*
 
 *.zip
+
+package-lock.json
+yarn.lock
