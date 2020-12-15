@@ -1,3 +1,11 @@
+/*
+ * @Author: zyj
+ * @Date: 2020-04-26 14:20:19
+ * @LastEditors: zyj
+ * @LastEditTime: 2020-12-15 15:30:49
+ * @Description: file content
+ * @FilePath: /ep-cli/src/config/index.ts
+ */
 module.exports = {
   npmUrl: "https://registry.npmjs.org/ep-cli/latest",
   promptTypeList: [
@@ -39,11 +47,11 @@ module.exports = {
           },
         },
         {
-          name: "react-admin-antP",
+          name: "mini",
           value: {
-            url: "https://gitee.com/Eplayer/react-admin-ant.git",
-            gitName: "react-admin-ant",
-            val: "antP管理模板",
+            url: "https://github.com/Eplayed/factorynike-mini.git",
+            gitName: "factorynike-mini",
+            val: "小程序工厂",
           },
         },
       ],
