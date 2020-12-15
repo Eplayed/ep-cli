@@ -1,8 +1,8 @@
 <!--
  * @Author: Eplayed
  * @Date: 2020-04-26 10:45:51
- * @LastEditTime: 2020-05-15 14:20:30
- * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-12-15 15:42:14
+ * @LastEditors: zyj
  * @Description: In User Settings Edit
  * @FilePath: /ep-cli/README.md
  -->
@@ -60,3 +60,16 @@ command not found: ep-cli
 那就是用 npm link ep-cli
 
 或者将文件夹拷贝至全局 node_modules ，配置全局 PATH，指向全局 node_modules/ep-cli/bin
+
+## 发布
+
+npm run build
+更改 package 版本号
+npm publish 更新到 npm
+
+## 更新 npm 包
+
+npm update ep-cli -g
+或者
+npm uninstall ep-cli -g
+在 npm install ep-cli -g
