@@ -17,9 +17,9 @@ module.exports = {
         {
           name: "mobile",
           value: {
-            url: "",
-            gitName: "vue-mobile-template",
-            val: "移动端模版",
+            url: "https://gitee.com/Eplayer/mobile-h5-temp.git",
+            gitName: "mobile-h5-react-template",
+            val: "移动端模版(react)",
           },
         },
         {
@@ -27,31 +27,31 @@ module.exports = {
           value: {
             url: "https://github.com/littleTreeme/vue-web-template.git",
             gitName: "vue-web-template",
-            val: "PC端模版",
+            val: "PC端模版(vue)",
           },
         },
         {
-          name: "react",
+          name: "sdk",
           value: {
-            url: " https://github.com/Eplayed/public_react_ts.git",
-            gitName: "public_react_ts",
-            val: "react模版",
+            url: "https://gitee.com/Eplayer/demo-sdk.git",
+            gitName: "demoSdk",
+            val: "sdk模版",
           },
         },
         {
           name: "react-admin",
           value: {
-            url: "https://github.com/Eplayed/react-admin-ant.git",
-            gitName: "react-admin-ant",
-            val: "react管理模板",
+            url: "https://gitee.com/Eplayer/admin-pc-temp.git",
+            gitName: "react-admin-pc",
+            val: "react运营管理模板",
           },
         },
         {
           name: "mini",
           value: {
-            url: "https://github.com/Eplayed/factorynike-mini.git",
-            gitName: "factorynike-mini",
-            val: "小程序工厂",
+            url: "https://gitee.com/Eplayer/miniprogram-temp.git",
+            gitName: "miniprogram-temp",
+            val: "taro小程序模板",
           },
         },
       ],
